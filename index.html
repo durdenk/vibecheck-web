@@ -1,20 +1,99 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>VibeCheck App</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="VibeCheck is an AI-powered Android app for skin insights, face analysis, and playful look-based features."
+  />
+  <meta name="theme-color" content="#0f0f0f" />
+  <title>VibeCheck — See What AI Sees</title>
+  <link rel="icon" type="image/png" href="./logo.png" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-    <h1>VibeCheck: AI Nationality & Roast</h1>
-    <p>Analyze your photos with 6 unique AI features. Discover your vibe today!</p>
-    
-    <a href="https://play.google.com/store/apps/details?id=com.cukkacreatives.skinscanner">Get it on Google Play</a>
-    
-    <hr>
-    <a href="app-ads.txt">AdMob Verification (app-ads.txt)</a>
-    <br>
-    <a href="#privacy">Privacy Policy</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="VibeCheck home">
+      <img src="./logo.png" alt="" width="58" height="58" />
+      <span>VibeCheck</span>
+    </a>
+    <nav aria-label="Legal">
+      <a href="./privacy-policy.html">Privacy</a>
+      <a href="./terms-of-use.html">Terms</a>
+    </nav>
+  </header>
 
-    <h2 id="privacy-policy">Privacy Policy</h2>
-    <p>VibeCheck does not store your personal photos on our servers. Images are processed through AI and discarded immediately...</p>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">AI-POWERED LOOK ANALYSIS</p>
+        <h1>See what AI<br /><span>sees in you.</span></h1>
+        <p class="lede">
+          Scan your skin, explore your facial features, and discover the first
+          impression your look creates—all in one bold AI experience.
+        </p>
+        <a
+          class="button"
+          href="https://play.google.com/store/apps/details?id=com.cukkacreatives.skinscanner"
+        >
+          Get it on Google Play
+        </a>
+        <p class="hero-note">No account required · Results saved on your device</p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="scan-frame">
+          <img src="./logo.png" alt="" width="330" height="330" />
+          <span class="scan-line"></span>
+          <span class="corner corner-one"></span>
+          <span class="corner corner-two"></span>
+          <span class="corner corner-three"></span>
+          <span class="corner corner-four"></span>
+        </div>
+        <span class="status-chip">ANALYSIS READY</span>
+      </div>
+    </section>
+
+    <section class="feature-grid" aria-label="VibeCheck features">
+      <article>
+        <span>01 / SCAN</span>
+        <h2>Skin Scanner</h2>
+        <p>Explore visible skin patterns and get AI-generated observations and care-oriented insights.</p>
+      </article>
+      <article>
+        <span>02 / DISCOVER</span>
+        <h2>Face Insights</h2>
+        <p>Check face age, proportions, your best feature, and the impression your facial cues may create.</p>
+      </article>
+      <article>
+        <span>03 / PLAY</span>
+        <h2>Vibe Tools</h2>
+        <p>Try playful features such as Roast Me and Nationality Guesser, built for curiosity and sharing.</p>
+      </article>
+    </section>
+
+    <section class="notice" aria-labelledby="important-title">
+      <div>
+        <p class="eyebrow">GOOD TO KNOW</p>
+        <h2 id="important-title">Insights, not a diagnosis.</h2>
+      </div>
+      <p>
+        VibeCheck results are AI-generated estimates for informational and
+        entertainment purposes. They are not medical advice, a clinical
+        diagnosis, or a substitute for care from a qualified professional.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 VibeCheck. All rights reserved.</p>
+    <div>
+      <a href="./privacy-policy.html">Privacy Policy</a>
+      <a href="./privacy-policy.html#data-deletion">Data Deletion</a>
+      <a href="./terms-of-use.html">Terms of Use</a>
+      <a href="./app-ads.txt">app-ads.txt</a>
+      <a href="mailto:saitmaras@gmail.com">Contact</a>
+    </div>
+  </footer>
 </body>
 </html>
